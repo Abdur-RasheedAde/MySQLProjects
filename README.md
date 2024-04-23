@@ -7,8 +7,8 @@ This project aims at showcasing hands-on experience in utilizing SQL for data an
 ## Data Source:
 The data is directly downlaoded from  used in this project is a modified microsoft dataset known as Financial Samples;  
 * Download Directly from Website [DownloadCovidDatadriectly](https://ourworldindata.org/covid-deaths)
-* CovidDeaths [DownloadCvidDeathfromGooglesheet](https://docs.google.com/spreadsheets/d/1KI8JwXroSF7M5SkrE10FDMADZ1HTO44p/edit?usp=drive_link&ouid=114068862415751566917&rtpof=true&sd=true)
-* CovidVaccinations [DownloadCvidVaccis=nationsfromGooglesheet](https://docs.google.com/spreadsheets/d/18zlI4JWegb19ArmLEK6KbjHboZQCK3UR/edit?usp=drive_link&ouid=114068862415751566917&rtpof=true&sd=true)
+* CovidDeaths [DownloadCovidDeathfromGooglesheet](https://docs.google.com/spreadsheets/d/1KI8JwXroSF7M5SkrE10FDMADZ1HTO44p/edit?usp=drive_link&ouid=114068862415751566917&rtpof=true&sd=true)
+* CovidVaccinations [DownloadCovidVaccinationsfromGooglesheet](https://docs.google.com/spreadsheets/d/18zlI4JWegb19ArmLEK6KbjHboZQCK3UR/edit?usp=drive_link&ouid=114068862415751566917&rtpof=true&sd=true)
 
 ## Problem Statement
 This project is aimed at improving business performance of Haut supermarket and hence, answer the following questions;

@@ -2,24 +2,13 @@
 
 ##  Introduction
 This is an SQL Data Exploratory Project using the COvid 19 Dataset.
-This project aims at showcasing hands-on experience in utilizing SQL for data analytics. Additionally, it will also aid ongoing endeavors to understand and combat the COVID-19 pandemic through data-driven insights. 🌟
+This project aims at showcasing hands-on experience in utilizing Microsoft SQL Server for data analytics. Additionally, it will also aid ongoing endeavors to understand and combat the COVID-19 pandemic through data-driven insights. 🌟
 
 ## Data Source:
 The data is directly downlaoded from  used in this project is a modified microsoft dataset known as Financial Samples;  
 * Download Directly from Website [DownloadCovidDatadriectly](https://ourworldindata.org/covid-deaths)
 * CovidDeaths [DownloadCovidDeathfromGooglesheet](https://docs.google.com/spreadsheets/d/1KI8JwXroSF7M5SkrE10FDMADZ1HTO44p/edit?usp=drive_link&ouid=114068862415751566917&rtpof=true&sd=true)
 * CovidVaccinations [DownloadCovidVaccinationsfromGooglesheet](https://docs.google.com/spreadsheets/d/18zlI4JWegb19ArmLEK6KbjHboZQCK3UR/edit?usp=drive_link&ouid=114068862415751566917&rtpof=true&sd=true)
-
-## Problem Statement
-This project is aimed at improving business performance of Haut supermarket and hence, answer the following questions;
-1. What is the monthly trend of Profit?
-2. What is the ratio of profit of the years under review?
-3. What is the profit ratio on quarterly basis?
-4. Which product category is the most and least profitable?
-5. Where does most sales comes from in terms of region?
-6. Does discount has an effect on Sales?
-7. What is the performance of the Africa market relative to other continent?
-8. Which country is most profitable?
 
 ## SQL and Analytics Technical Skills showcased:
 + Project Planning and Documentation
@@ -30,52 +19,16 @@ This project is aimed at improving business performance of Haut supermarket and 
 + Aggregate Functions
 + Converting Data Types
   
-## Data Modelling
-To optimize the performance of the data model, a calendar table was created using the DAX function. The data model follows a star schema with one fact table and three dimension tables. The dimension tables have PRIMARY KEYS that connect to the corresponding FOREIGN KEYS in the fact table, forming a one-to-many relationship between each dimension table and the fact table. The diagram below shows the data model.  
-<img src="https://github.com/Abdur-RasheedAde/Financial_Report/blob/main/Data%20Modelling.PNG" width=50% height=50%>
+## Data Ingestion:
+The downloaded dataset was loaded into SQL server while all other ETL processes follows afterwards.
 
 ## Report Design and Visualization
-The Report Canvas was designed in Power Point and imported to PowerBI as canvas background. Here is a sample of the slide in Power Point   
-<img src="https://github.com/Abdur-RasheedAde/Financial_Report/blob/main/Slide2.PNG" width=50% height=50%>  
-5 pages were created; Home, Consolidated, Stationery, Cosmetics and Electronics. 
-_Home_ page is the landing page while _Consolidated_ has the general report without filter while other pages has filtered reports accroding to their page name.
-On each page, the new card visual is used to hold Total Sales, Gross Sales and Profit, Line Chart is used for the series analysis while a column and bar chart are adopted for the Continental and Country analysis respectively. The last image is the button for page navigation. 
+The project was visualized using Tableau Public
+Link shall be available soon!!! Watch Out
 
-| Visuals             |  Visuals |
-:-------------------------:|:-------------------------:
-<img src="https://github.com/Abdur-RasheedAde/Financial_Report/blob/main/Card1.PNG" width=90% height=90%>|<img src="https://github.com/Abdur-RasheedAde/Financial_Report/blob/main/button1.PNG" width=40% height=40%> 
-<img src="https://github.com/Abdur-RasheedAde/Financial_Report/blob/main/columnbarchart.PNG" width=60% height=60%> |<img src="https://github.com/Abdur-RasheedAde/Financial_Report/blob/main/Linechart.PNG" width=100% height=100%> 
+## Conclusions 
+1. SQL is one of the leading language in Data Analysis essentially used for the EDA and at higher level, Data Engineering and Data Science.
+2. It has different flavors like SQL Server, Postgress, MySQL, OracleSQL and so on
+3. It is also an awesome tool for Data warehousing and ETL process while data visualization can be done with other tools services like PowerBI or Tableau or other cloud based ones like AWSQuicksight, Looker...
 
-## Analytics abd Insights
-The data analysis revealed that;
-
-1. There is a zig-zag trend of profit across the months, however, October records the highest profit of ($3.74M) which is 15% of the total profit and April records the least profit of ($1.4M), 6% of total profit
-2. There exist an increase in profit from 2013 to 2014 with a ration of 4:6
-3. Q4 record the highest profit of ($8.4M) with Q1 with the lowest ($5M), this shows steady increase in profit across the quarter from 1 to 4
-4. The most and least profitable product category are Stationery and Cosmetics which amounts to 44% and 28% of the total profits respectively 
-5. By region continent is intended, therefore Haut supermarket makes the most sales from America region ($98M) with 47% of the total Gross Sales
-6. This is achieved with the help of the slicer; which shows that product with discount result to 96% of the total Gross sales while only 4% don't have discount, with **High** band of discount amounting to 41% of the Gross Sales
-7. Africa pull 9% of the total Gross sales and 6% of the total Profit from the 202,286 Units solds from South Africa and Nigeria. This is can be visualised when clicking on Africa in the column chart 
-8. France is the most profitable Country among the Haut Stores with 20% ($4.9M) of the total profit
-
-![ConsolidatedDashboard](https://github.com/Abdur-RasheedAde/Haut_Sales_Analysis/blob/main/Page2Consolidated.PNG)
-
-## Conclusions and Recommedations
-
-1. Haut needs to conduct market analysis to increase sales in Q1 and Q2 and offer seasonal products that appeal to customers in the first half of the year
-2. Haut’s management should continue their market strategy that leads to higher profits and better customer satisfaction
-3. The cosmetics product category demands more research and development to boost its sales and profitability
-4. Promotions (discounts) drive most of the sales in Haut stores, making them competitive in the dynamic market. Therefore, other promotional and marketing strategies should be implemented to enhance sales and profit
-5. Products in Africa and China stores should be tailored to the specific needs of these markets through careful research
-
-## Deployment to Power BI Service
-This Report is deployed to Power BI service from my Microsoft developer account and publish to the web for everyone to have access to it.
-[HautSupermarketAnalysis](https://app.powerbi.com/groups/me/reports/66ab0071-4b25-41c8-99fd-fd006603aacd/ReportSection6239a8326550e132bae6?ctid=32796be2-60fb-4da2-8d26-06e5938e6e6b&experience=power-bi)  
-
-To Open a developer Microsoft account, kindly check this article [OpenMicrosoftdeveloperaccount](https://techcommunity.microsoft.com/t5/educator-developer-blog/register-for-microsoft-365-and-power-apps-developer-account-with/ba-p/3490280)
-
-Thanks for taking time to go through this report! 🤝
-
-
-
-
+Thanks for taking time to go through this report! and I am open to collaborate with you on any Data Engineering projects exploring SQL on cloud big data platforms especially Azure, AWS, GCP and Databricks, you can always reach me on adeoyerasheed30@gmail.com Ciao 🤝

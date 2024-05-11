@@ -19,8 +19,9 @@ The data is directly downlaoded from  used in this project is a modified microso
 + Aggregate Functions
 + Converting Data Types
   
-## Data Ingestion:
+## Data Ingestion and EDA Process:
 The downloaded dataset was loaded into SQL server while all other ETL processes follows afterwards.
+The comsplete EDA process can be gotten from the project codes here [Covid-19Project](https://github.com/Abdur-RasheedAde/MySQLProjects/blob/main/SQLProject.sql)
 
 ## Report Design and Visualization
 The project was visualized using Tableau Public
